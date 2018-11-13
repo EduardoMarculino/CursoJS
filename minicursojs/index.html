@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+
+  <style>
+    body {
+        background-image: url("img/bg2.jpeg");
+        background-repeat: repeat;
+      }
+      .t{
+        fo
+      }
+    </style>
+</head>
+
+<body class="container text-monospace ">
+  <div class="row justify-content-center mt-3">
+    <div class="col-lg-6">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+          <div class="text-center">
+            <h3 >Tarefas</h3>
+          </div>
+          <div class="input-group">
+            <input type="text" name="tarefa" id="tarefa" class="form-control" placeholder="Adicione uma tarefa..." />
+            <div class="input-group-append">
+              <button type="button" class="btn btn-outline-primary" id="enviar">
+                <span class="fas fa-plus"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <ul class="list-group shadow-lg p-3 mb-5 bg-white rounded" style="margin-top: -35px;" id="todolist">
+        
+      </ul>
+    </div>
+  </div>
+  <script src="src/index.js"></script>
+  <script src="src/model/Tarefa.js"></script>
+
+  </script>
+</body>
+
+</html>
